@@ -44,7 +44,7 @@ function draw(){
 
     man.scale = 1;
 
-    if(frameCount === 1 || frameCount % 200 === 0){
+    if(frameCount === 1 || frameCount % 300 === 0){
         rSound.play();
     }
 
